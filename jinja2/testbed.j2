@@ -1,0 +1,16 @@
+testbed:
+  name: Nexus Learn State
+devices:
+  {{ hostname }}:
+    alias: 'leaf'
+    type: 'Nexus'
+    os: 'nxos'
+    credentials:
+      default:
+        username: {{ username }}
+        password: "%ASK{Password}"
+    connections:
+      mgmt:
+        protocol: ssh
+        ip: "{{ ip }}"
+
