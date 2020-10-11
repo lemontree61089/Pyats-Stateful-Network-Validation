@@ -1,0 +1,2 @@
+Jinja2==2.11.2
+websocket-client==0.47.0
