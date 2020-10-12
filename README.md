@@ -12,7 +12,7 @@ pyATS can do a lot of things, the aim of this repo is to show how to use pyATS t
 In this example, we will show how we can use pyATS on a Nexus switch to detect a VNI going down.
 
 ### Environment
-There is an existing docker container which contains everything you need to run pyATS. The container is already downloaded on JMICH.
+There is an existing docker container which contains everything you need to run pyATS.
 https://hub.docker.com/r/ciscotestautomation/pyats
 
 ### How does this work?
